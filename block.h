@@ -1,12 +1,9 @@
 #include <QMainWindow>
-#include <QWidget>
 #include <QString>
 #include <QTime>
 
-class Block : public QWidget
+class Block
 {
-    Q_OBJECT
-
 public:
     Block(const QString &data);
     Block(const Block &block)
